@@ -1,0 +1,61 @@
+.landingPage {
+  max-width: 97vw;
+  min-height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+.navBarContainer {
+  max-width: 100%;
+  height: 90px;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 2px;
+}
+.nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+  background-clip: linear-gradient(to left, red, white);
+  text-decoration: none;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-options {
+  margin-right: 24px;
+  text-decoration: none;
+  color: rgb(10, 4, 8);
+  font-size: 24px;
+}
+.sidebar-con {
+  width: 200px;
+  min-height: 100vh;
+  background-color: cornflowerblue;
+  margin-top: -12px;
+}
+.menu-options {
+  width: 100%;
+  list-style-type: none;
+  font-size: 18px;
+  color: black;
+  padding-top: 24px;
+}
+.menu-options li {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
